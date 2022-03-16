@@ -1,17 +1,33 @@
-// import { useState } from 'react'
+//import { useState } from 'react'
 
-import {InputStyle} from './style/Input'
+import { InputFloatStyle, InputDefaultStyle } from './style/Input'
 
-function Input() {
+export function InputDefault(props) {
+
+    const { type = 'text',
+        placeholder = 'VictorGVC',
+        radius = '25' } = props
 
     return (
-        <InputStyle background={'white'}>
-            <div>
-                <input type="text" placeholder=' '/>
-                <label>Username</label>
-            </div>
-        </InputStyle>
+        <InputDefaultStyle radius={radius}>
+            <input type={type} placeholder={placeholder} />
+        </InputDefaultStyle>
     )
 }
 
-export default Input
+export function InputFloat(props) {
+
+    const { type = 'text',
+        label = 'Username',
+        radius = '25',
+        background = 'white' } = props
+
+    return (
+        <InputFloatStyle background={background} radius={radius}>
+            <input type={type} placeholder=' ' />
+            <label>{label}</label>
+        </InputFloatStyle>
+    )
+}
+
+export default InputFloat

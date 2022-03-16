@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Input from './components/Input'
+import Sign from './components/Sign'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Input />
+    <Sign/>
   </React.StrictMode>,
   document.getElementById('root')
 )
