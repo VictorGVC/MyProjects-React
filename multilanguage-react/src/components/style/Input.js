@@ -3,16 +3,19 @@ import styled from 'styled-components'
 export const InputDefaultStyle = styled.div`
     
     input {
+
         border: 1px solid lightgrey;
-        border-radius: 25px;
+        border-radius: ${props => props.radius+'px'};
         outline: none;
-        min-width: 200px;
+        min-width: 222px;
         padding: 12px 20px;
         font-size: 14px;
-        transition: all .07s linear;
+        transition: all .1s linear;
         font-family: 'Nunito', sans-serif;
+
         :focus {
-            border: 2px solid #3951b2;
+            border: 1.9px solid #3951b2;
+            border-radius: ${props => props.radius-10+'px'};
 
             :required:invalid{
                 border: 2px solid red;

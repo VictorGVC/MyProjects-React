@@ -5,10 +5,11 @@ import { InputFloatStyle, InputDefaultStyle } from './style/Input'
 export function InputDefault(props) {
 
     const { type = 'text',
-        placeholder = 'VictorGVC' } = props
+        placeholder = 'VictorGVC',
+        radius = '25' } = props
 
     return (
-        <InputDefaultStyle>
+        <InputDefaultStyle radius={radius}>
             <input type={type} placeholder={placeholder} />
         </InputDefaultStyle>
     )
@@ -17,10 +18,12 @@ export function InputDefault(props) {
 export function InputFloat(props) {
 
     const { type = 'text',
-        label = 'Username' } = props
+        label = 'Username',
+        radius = '25',
+        background = 'white' } = props
 
     return (
-        <InputFloatStyle background={'white'}>
+        <InputFloatStyle background={background} radius={radius}>
             <input type={type} placeholder=' ' />
             <label>{label}</label>
         </InputFloatStyle>
