@@ -1,4 +1,4 @@
-import { SignStyle } from './style/Sign'
+import { SignStyle } from './style/SignForm'
 import { InputDefault } from './Input'
 import { Button } from './Button'
 
