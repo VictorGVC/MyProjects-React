@@ -3,8 +3,10 @@ import styled from 'styled-components'
 export const SignStyle = styled.div`
 
     padding: 0px 15px;
+
     header {
         margin: 30px 0px;
+        transition: all .1s linear;
     }
 
     a {
@@ -21,7 +23,7 @@ export const SignStyle = styled.div`
 
     label {
         display: block;
-        margin: 20px 0px 10px;
+        margin: 20px 0px 10px 4px;
         font-family: 'Nunito', sans-serif;
         font-weight: 600;
     }
