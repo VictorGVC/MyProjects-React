@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const SignStyle = styled.div`
 
     padding: 0px 15px;
-
+    width: min-content;
     header {
         margin: 30px 0px;
         transition: all .1s linear;
@@ -29,13 +29,15 @@ export const SignStyle = styled.div`
     }
 
     p {
+        white-space: nowrap;
         font-size: 1.1em;
         margin-top: 0px;
+        margin-right: 2px;
         font-family: 'Nunito', sans-serif;
         letter-spacing: 1px;
     }
 
     button {
-        margin-top: 35px;
+        margin: 35px 0px;
     }
 `;
