@@ -14,7 +14,7 @@ export const InputDefaultStyle = styled.div`
         font-family: 'Nunito', sans-serif;
 
         :focus {
-            border: 1.9px solid #3951b2;
+            border: 1px solid #3951b2;
             border-radius: ${props => props.radius-10+'px'};
 
             :required:invalid{

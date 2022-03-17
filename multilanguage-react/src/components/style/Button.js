@@ -6,9 +6,10 @@ export const ButtonStyle = styled.button`
     border-radius: ${props => props.radius+'px'};
     outline: none;
     min-width: 222px;
+    width: ${props => props.width+'px'};
     padding: 12px 20px;
     font-size: 15px;
-    transition: all .3s linear;
+    transition: all .2s linear;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     box-sizing: content-box;
@@ -16,10 +17,5 @@ export const ButtonStyle = styled.button`
     :hover {
         cursor: pointer;
         border-radius: ${props => props.radius-10+'px'};
-    }
-
-    :active {
-        transition: all .1s linear;
-        
     }
 `;
