@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Sign from './components/SignScreen'
+import Landing from './components/Landing'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Sign/>
+    <Landing />
   </React.StrictMode>,
   document.getElementById('root')
 )
