@@ -9,7 +9,7 @@ export const SignStyle = styled.div`
         transition: all .1s linear;
     }
 
-    a {
+    > a {
         text-decoration: none;
         font-weight: 700;
         // TODO peak color from props color: {props};
@@ -21,7 +21,7 @@ export const SignStyle = styled.div`
         margin: 0px;
     }
 
-    label {
+    > label {
         display: block;
         margin: 20px 0px 10px 4px;
         font-family: 'Nunito', sans-serif;
