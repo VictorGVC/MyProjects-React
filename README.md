@@ -2,7 +2,7 @@
 <!-- [![Visits Badge](https://badges.pufler.dev/visits/VictorGVC/ProjectMultilanguage-Node)](https://github.com/VictorGVC/ProjectMultilanguage-React) -->
 [![Updated Badge](https://badges.pufler.dev/updated/VictorGVC/ProjectMultilanguage-React)](https://github.com/VictorGVC/ProjectMultilanguage-React/commits/main)
 
-<h1 align="center">Multilanguage - React</h1>
+<h1 align="center">My Projects - React</h1>
 
 ## About 🎯
 
